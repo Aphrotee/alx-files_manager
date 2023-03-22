@@ -20,7 +20,7 @@ module.exports = {
     rules: {
       'max-classes-per-file': 'off',
       'no-underscore-dangle': 'off',
-      'no-console': 'off',
+      'no-console': 'off' ,
       'no-param-reassign': 'off',
       'no-shadow': 'off',
       'no-restricted-syntax': [
