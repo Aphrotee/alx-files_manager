@@ -9,6 +9,7 @@ class RedisClient {
       console.log(err.toString());
       this.alive = false;
     });
+  
     this.client.on('connect', () => {
       this.alive = true;
     });
